@@ -81,14 +81,14 @@ img {
 }
 
 
-@media (max-width: 1170) {
+@media (max-width: 1125px) {
     .container {
         max-width: 100%;
     }
 }
 
 
-@media (min-width: 1170) {
+@media (min-width: 1290px) {
     .container {
         max-width: 60%;
     }
