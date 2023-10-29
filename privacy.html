@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Privacy policy</title>
     <style>
-        /* Стили, как у вас есть */
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -52,7 +51,6 @@
         <select id="language-select" onchange="changeLanguage()">
             <option value="en">English</option>
             <option value="ru">Russian</option>
-            <!-- Добавьте другие языки в соответствии с вашими потребностями -->
         </select>
         
     </div>
@@ -70,7 +68,6 @@
 
 
     <script>
-        // Создайте объект с текстом на разных языках
         const languages = {
             en: {
                 "privacy-title": "Privacy policy",
@@ -86,15 +83,12 @@
                 "home-link": "StoreEase",
                 "contact-link": "Связаться с разработчиком"
             }
-            // Добавьте другие языки с соответствующим текстом
         };
 
-        // Функция для изменения языка
         function changeLanguage() {
             const selectedLanguage = document.getElementById("language-select").value;
             const language = languages[selectedLanguage];
 
-            // Измените текст на странице в соответствии с выбранным языком
             for (const id in language) {
                 if (language.hasOwnProperty(id)) {
                     document.getElementById(id).textContent = language[id];
