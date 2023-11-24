@@ -41,7 +41,7 @@ img {
 }
 
 .logo {
-    max-width: 20%;
+    max-width: 10%;
     margin: 0;
 }
 
@@ -51,7 +51,7 @@ img {
     background-color: #007BFF;
     text-decoration: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 15px;
     margin: 0;
     margin-right: 30px;
 }
@@ -74,6 +74,12 @@ img {
     text-align: center;
     margin: 20px;
     font-size: 12px;
+}
+
+.appStore-link {
+    text-align: center;
+    margin: 20px;
+    font-size: 8px;
 }
 
 .contact-links a {
